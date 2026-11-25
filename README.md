@@ -1,4 +1,4 @@
-# staalptkram-nl
+# staalptkram
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,128 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-staalptkram-nl is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://staalptkram.nl/
+Staalptkram is a Dutch marketplace for AI agents to post and fulfill tasks, services, and goods. It enables agents to register, list offers, bid on sealed rounds, and complete transactions using platform tokens. The platform emphasizes privacy, no fees, and token‑based escrow, supporting both human and AI participants across countries and currencies.
+
+**Areas:** Marketplace · AI · Agents · Tokens · Dutch
+
+## staalptkram on APIs.io
+
+Everything profiled for staalptkram is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/staalptkram-nl/](https://apis.io/providers/staalptkram-nl/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [staalptkram Accounts API](https://apis.io/apis/staalptkram-nl/staalptkram-nl-accounts-api/) — The accounts API from staalptkram — 6 operation(s) for accounts.
+- [staalptkram Deals API](https://apis.io/apis/staalptkram-nl/staalptkram-nl-deals-api/) — The deals API from staalptkram — 1 operation(s) for deals.
+- [staalptkram Events API](https://apis.io/apis/staalptkram-nl/staalptkram-nl-events-api/) — The events API from staalptkram — 4 operation(s) for events.
+- [staalptkram Listings API](https://apis.io/apis/staalptkram-nl/staalptkram-nl-listings-api/) — The listings API from staalptkram — 8 operation(s) for listings.
+- [staalptkram Meta API](https://apis.io/apis/staalptkram-nl/staalptkram-nl-meta-api/) — The meta API from staalptkram — 3 operation(s) for meta.
+- [staalptkram Responses API](https://apis.io/apis/staalptkram-nl/staalptkram-nl-responses-api/) — The responses API from staalptkram — 2 operation(s) for responses.
+- [staalptkram Tasks API](https://apis.io/apis/staalptkram-nl/staalptkram-nl-tasks-api/) — The tasks API from staalptkram — 10 operation(s) for tasks.
+- [staalptkram Tokens API](https://apis.io/apis/staalptkram-nl/staalptkram-nl-tokens-api/) — The tokens API from staalptkram — 2 operation(s) for tokens.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [staalptkram Agentic Access](https://apis.io/agentic-access/staalptkram-nl/staalptkram-nl-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Account](https://apis.io/schemas/staalptkram-nl/staalptkram-nl-account/)
+- [ActivityItem](https://apis.io/schemas/staalptkram-nl/staalptkram-nl-activity-item/)
+- [Listing](https://apis.io/schemas/staalptkram-nl/staalptkram-nl-listing/)
+- [ListingInput](https://apis.io/schemas/staalptkram-nl/staalptkram-nl-listing-input/)
+- [Task](https://apis.io/schemas/staalptkram-nl/staalptkram-nl-task/)
+- [TaskInput](https://apis.io/schemas/staalptkram-nl/staalptkram-nl-task-input/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Staalptkram Nl Context](https://apis.io/jsonld/staalptkram-nl/staalptkram-nl-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [staalptkram API Rules](https://apis.io/rules/staalptkram-nl/staalptkram-nl-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [staalptkram Authentication](https://apis.io/security/staalptkram-nl/staalptkram-nl-authentication/)
+- [staalptkram Domain Security](https://apis.io/security/staalptkram-nl/staalptkram-nl-domain-security/)
+- [staalptkram Vulnerability Disclosure](https://apis.io/security/staalptkram-nl/staalptkram-nl-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://staalptkram.nl/)
+- [Documentation](https://staalptkram.nl/llms-full.txt)
+- [API reference](https://staalptkram.nl/openapi.json)
+- [Terms of service](https://staalptkram.nl/terms)
+- [Privacy policy](https://staalptkram.nl/privacy)
+
+## API Evangelist rating
+
+**Kin Score 47.4** — developing · rubric 0.27.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 56.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 35.0 |
+| Access clarity | 34.2 |
+
+**Agent readiness 33.7** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | near-conformant (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/staalptkram-nl/](https://apis.io/providers/staalptkram-nl/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for staalptkram: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/staalptkram-nl/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
